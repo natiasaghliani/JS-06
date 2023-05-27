@@ -28,7 +28,7 @@ axios()
         errorMsg(err);
     });
 
-    axios()
+ axios()
     .then(value => {
         console.log(value);
         const ul = document.querySelector('ul');
